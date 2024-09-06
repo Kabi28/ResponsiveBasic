@@ -1,0 +1,136 @@
+body {
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+header h1, nav{
+    display: inline-block;
+   
+}
+header nav {
+    float: right;
+    padding: 10px;
+
+}
+nav a {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: white;
+}
+nav button {
+    display: none;
+    margin-left: 2rem;
+    background-color: white;
+    color: black;
+}
+.side-nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    
+}
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding-bottom: 5rem;
+    
+}
+main {
+    display: inline-block;
+    width: 70%;
+    padding: 1rem;
+    
+}
+.side-nav ul li{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+header a{
+    font-size: 18px;
+}
+main article {
+    margin-bottom: 2rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 1rem;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.second-nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    padding-top: 5rem;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(220, 120, 120);
+}
+.second-nav ul{
+    list-style-type: none;
+    background-color: rgb(213, 216, 216);
+    
+}
+.second-nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    
+
+}
+.second-nav ul li {
+    padding-bottom: 2rem ;
+    padding: 10px;
+    position: relative;
+    
+    margin-bottom: 1rem;
+   
+   
+    
+
+}
+.second-nav button {
+    float: right;
+    position: relative;
+    top: -3.5rem;
+    right: 2rem;
+    border: none;
+    background-color: red;
+    color: white;
+}
+@media (min-width: 375px) and (max-width: 760px){
+    header nav a{
+        display: none;
+    }
+    nav button {
+        display: block;
+    }
+    aside {
+        display: block;
+        width: 100%;
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .side-nav ul li {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 15px;
+    }
+    .second-nav {
+        width: 40%;
+    }
+
+
+}
